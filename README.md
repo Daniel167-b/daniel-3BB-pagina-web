@@ -4,72 +4,50 @@ Miss karla es un ejercicio
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Grouping CSS selectors</title>
+        <title>Derivado de "Desafío: animales agrupados"</title>
         <style>
-            body {
+            p {
                 font-family: sans-serif;
             }
             
-            h1 {
-                font-family: cursive;
+            img {
+                max-width: 150px;
             }
             
-            h2 {
-                font-family: cursive;
+            h1,h2 {
+                font-family: fantasy;
+                border-bottom: 1px solid rgb(230, 34, 230);
+                padding: 3px;
             }
+            
+            h1:hover,h2:hover {
+                background-color: rgb(106, 112, 58);
+            }
+            
         </style>
     </head>
     <body>
-    
-        <h1>Famous paintings</h1>
         
-        <p>You can learn more about these famous paintings on <a href="https://www.khanacademy.org">Khan Academy</a>.</p>
+        <h1>Animal group names</h1>
         
+        <p>For many species of animals, there are names that we use to refer to a group of them - like a flock of birds. Here are a few you might not know.</p>
         
-        <h2>Baroque</h2>
-        <ul>
-            <li>
-                <a href="https://www.khanacademy.org/humanities/monarchy-enlightenment/baroque-art1/spain/v/vel-zquez-las-meninas-c-1656">
-                    Velázquez, Las Meninas
-                </a>
-            </li>
-            <li>
-                <a href="https://www.khanacademy.org/humanities/monarchy-enlightenment/baroque-art1/baroque-italy/v/caravaggio-s-calling-of-st-matthew-c-1599-1600">Caravaggio, Calling of St. Matthew</a>
-            </li>
-            <li>
-                <a href="https://www.khanacademy.org/humanities/monarchy-enlightenment/baroque-art1/holland/v/rembrandt-nightwatch">Rembrandt, Night watch</a>
-            </li>
-        </ul>
-        
-        <h2>Mannerism</h2>
-        <ul>
-            <li>
-                <a href="https://www.khanacademy.org/humanities/renaissance-reformation/mannerism1/v/parmigianino-madonna-of-the-long-neck-1530-33">
-                    Parmigianino, Madonna of the Long Neck
-                </a>
-            </li>
-            <li>
-                <a href="https://www.khanacademy.org/humanities/renaissance-reformation/mannerism1/a/el-greco-view-of-toledo">
-                    El Greco, View of Toledo
-                </a>
-            </li>
-        </ul>
-        
-        <h2>Abstract</h2>
-        <ul>
-            <li>
-                <a href="https://www.khanacademy.org/humanities/art-1010/early-abstraction/cubism/a/picasso-guernica">
-                    Picasso, Guernica
-                </a>
-            </li>
-            <li>
-                <a href="https://www.khanacademy.org/humanities/art-1010/early-abstraction/cubism/a/braque-the-portuguese">
-                    Braque, The Portuguese
-                </a>
-            </li>
-        </ul>
-        
-        
+        <h2>A skulk of foxes</h2>
 
+        <p>Also called a "leash."</p>
+        
+        <img src="https://www.kasandbox.org/programming-images/animals/fox.png">
+        <img src="https://www.kasandbox.org/programming-images/animals/fox.png">
+        
+        <h2>A clowder of cats</h2>
+        
+        <p>Also called a "pounce", "glaring", "kindle", or "clutter."</p>
+        
+        <img src="https://www.kasandbox.org/programming-images/animals/cat.png">
+        <img src="https://www.kasandbox.org/programming-images/animals/cat.png">
+        
+        <p>
+        <a href="http://en.wikipedia.org/wiki/List_of_animal_names">Learn more on Wikipedia</a>
+        </p>
     </body>
 </html>
